@@ -1,0 +1,1 @@
+password="yourpassword"; file="note.txt"; openssl enc -aes-256-cbc -salt -pbkdf2 -pass pass:$password -in $file -out encrypted_data.bin
