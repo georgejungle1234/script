@@ -1,0 +1,1 @@
+password="yourpassword"; openssl enc -aes-256-cbc -d -salt -pbkdf2 -pass pass:$password -in encrypted_data.bin -out decrypted_note.txt
